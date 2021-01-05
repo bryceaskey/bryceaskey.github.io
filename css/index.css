@@ -1,0 +1,111 @@
+html,body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+header {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+header a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+}
+
+header a.nav-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    float: left;
+}
+
+header li a {
+    padding: 20px 16px;
+}
+
+header li a.active {
+    background-color: salmon;
+}
+
+header li a:hover {
+    background-color: rgb(168, 84, 75);
+}
+
+#banner {
+    background-image: url("../media/sunflowers.jpg");
+    padding-top: 64px;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#banner-box {
+    max-width: 950px;
+    width: 100%;
+    padding: 0px 25px;
+    background-color: rgba(0,0,0,0.6);
+    text-align: center;
+    color: white;
+}
+
+#banner-box h1 {
+    font-size: 56px;
+    margin: 12px 0px;
+}
+
+#banner-box h3 {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+#overview {
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+    padding: 0px 25px;
+}
+
+footer {
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+    padding-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer img {
+    margin: 0px 20px;
+}
