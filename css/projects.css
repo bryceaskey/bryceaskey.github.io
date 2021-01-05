@@ -28,12 +28,12 @@ header a {
     display: inline-block;
     color: white;
     text-align: center;
-    padding: 16px 16px;
     text-decoration: none;
 }
 
 header a.nav-title {
-    font-size: 24px;
+    padding: 12px 16px;
+    font-size: 28px;
     font-weight: bold;
 }
 
@@ -48,7 +48,7 @@ header li {
 }
 
 header li a {
-    padding: 20px 16px;
+    padding: 18px 16px;
 }
 
 header li a.active {
@@ -70,7 +70,7 @@ header li a:hover {
 	position: absolute;
 	bottom: 0;
     width: 100%;
-    padding: 25px 0px 60px 0px;
+    padding: 25px 0px 48px 0px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -87,7 +87,7 @@ footer {
     padding: 0;
     width: 100%;
     background-color:#333333;
-    height: 48px;
+    height: 36px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
