@@ -59,11 +59,23 @@ header li a:hover {
     background-color: rgb(168, 84, 75);
 }
 
-#title {
+div.page-content {
     max-width: 1000px;
     width: 100%;
     margin: auto;
-    padding: 64px 25px 0px 25px;
+    padding: 0px 25px 125px 25px;
+}
+
+div#title {
+	padding: 64px 25px 0px 25px;
+}
+
+div.news-event {
+    margin-bottom: 25px;
+}
+
+div.news-event h3, div.news-event p {
+    margin: 0px 0px 10px 0px;
 }
 
 #logos {

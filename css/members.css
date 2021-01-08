@@ -59,11 +59,34 @@ header li a:hover {
 	background-color: rgb(168, 84, 75);
 }
 
-#title {
-	max-width: 1000px;
-	width: 100%;
-	margin: auto;
+div.page-content {
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+    padding: 0px 25px 125px 25px;
+}
+
+div#title {
 	padding: 64px 25px 0px 25px;
+}
+
+div.person {
+    padding: 0px 0px 15px 0px;
+    width: 100%;
+    display: flex;
+}
+
+div.person img {
+    width: 300px;
+}
+
+div.person-info {
+    margin: 0px 0px 0px 15px;
+    width: auto;
+}
+
+div.person-info h3, div.person-info p {
+    margin: 0px 0px 10px 0px;
 }
 
 #logos {
