@@ -85,7 +85,7 @@ div.person-info {
     width: auto;
 }
 
-div.person-info h3, div.person-info p {
+div.person-info h2, div.person-info h4, div.person-info p {
     margin: 0px 0px 10px 0px;
 }
 
